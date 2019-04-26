@@ -2,7 +2,7 @@
 Chuleta Comandos de GIT
 
 https://git-scm.com/book/es/v1/Empezando-Configurando-Git-por-primera-vez
-gitignore.io
+https://gitignore.io
 
 ### Iniciar:
 `git init`
