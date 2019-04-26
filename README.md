@@ -5,25 +5,25 @@
 
 ## Iniciar
 
-`git init`
+    `git init`
 
 Añadir repositiorio remoto: (origin es el nombre por defecto)
 
-`git remote add origin https://github.com/tollelle/repositorio.git`
+    `git remote add origin https://github.com/tollelle/repositorio.git`
 
 Listar repositorio remoto:
 
-`git remote -v`
+    `git remote -v`
 
 Modificar repositorio remoto
 
-`git remote set-url origin https://github.com/tollelle/nuevoRepositorio.git`
+    `git remote set-url origin https://github.com/tollelle/nuevoRepositorio.git`
 
 Definiendo identidad:
 
-`git config --global user.name "John Doe"`
+    `git config --global user.name "John Doe"`
 
-`git config --global user.email johndoe@example.com`
+    `git config --global user.email johndoe@example.com`
 
 <sup>*</sup> Sin `--global` compruebas el valor
 
@@ -31,122 +31,123 @@ Definiendo identidad:
 
 Escuchando cambios de todo
 
-`git add .` 
+    `git add .` 
 
 Escuchando cambios de archivo
 
-`git add README`
+    `git add README`
 
 Confirmar cambios y Commit inicial
 
-`git commit –m 'versión inicial del proyecto'`
+    `git commit –m 'versión inicial del proyecto'`
 
 ## Clonar
 
 Clonado repositorio en carpeta actual con directorio grit
 
-`git clone git://github.com/schacon/grit.git`
+    `git clone git://github.com/schacon/grit.git`
 
 Clonando repositorio y rama específica
 
-`git clone -b RAMA it://github.com/schacon/grit.git`
+    `git clone -b RAMA it://github.com/schacon/grit.git`
 
 Clonando repositorio en carpeta definida
 
-`git clone git://github.com/schacon/grit.git carpeta`
+    `git clone git://github.com/schacon/grit.git carpeta`
 
 
 ## Info
 
 Comprobar estado de archivos
 
-`git status`
+    `git status`
 
 Ver lo que has modificado pero aún no has preparado
 
-`git diff`
+    `git diff`
 
 Rehaciendo última confirmación
 
-`git commit --amend`
+    `git commit --amend`
 
 ## Repositorios 
 
 Mostrando repositorios remotos definidos:
 
-`git remote`
+    `git remote`
 
 Recibiendo repositorio remoto y estados:
 
-`git fetch [remote-name]`
+    `git fetch [remote-name]`
 
 Enviando cambios a repositorio remoto
 
-`git push origin master`
+    `git push origin master`
 
 Inspeccionando repositorio remoto
 
-`git remote show origin`
+    `git remote show origin`
 
 Eliminando y renombrando repositorios remotos
 
-`git remote rename NOMBREVIEJO NOMBRENUEVO`
+    `git remote rename NOMBREVIEJO NOMBRENUEVO`
 
 Borrar repositorio remoto de la lista
 
-`git remote rm origin`
+    `git remote rm origin`
 
 ## Ramas
 
 Creando nueva rama
 
-`git branch testing`
+    `git branch testing`
 
 
 Cambiar a nueva rama
 
-`git checkout testing`
+    `git checkout testing`
 
 
 Creando rama y cambiando a la nueva rama
 
-`git checkout -b 'nuevaRAMA'`
+    `git checkout -b 'nuevaRAMA'`
 
 Fusionar ramas a master con merge
 
-`git checkout master`
+    `git checkout master`
 
-`git merge nuevaRAMA`
+    `git merge nuevaRAMA`
 
 
 Borrar rama local nueva tras ser fusionada
-`git branch -d nuevaRAMA`
+
+    `git branch -d nuevaRAMA`
 
 Borrar rama local nueva SIN ser fusionada
 
-`git branch -D nuevaRAMA`
+    `git branch -D nuevaRAMA`
 
 
 Borrar rama remota
 
-`git push origin :rama`
+    `git push origin :rama`
 
 
 Mostrar listado de ramas del repositorio
 
-`git branch`
+    `git branch`
 
 
 Publicando desde rama actual
 
-`git push (remoto) (rama)`
+    `git push (remoto) (rama)`
 
-`git push origin master`
+    `git push origin master`
 
 
 Reorganizar rama sobre master sin comprobar previamente
 
-`git rebase master rama`
+    `git rebase master rama`
 
 
 
