@@ -4,7 +4,7 @@
 - https://gitignore.io
 
 ## Iniciar
------
+
 `git init`
 
 Añadir repositiorio remoto: (origin es el nombre por defecto)
@@ -28,7 +28,6 @@ Definiendo identidad:
 <sup>*</sup> Sin `--global` compruebas el valor
 
 ## Monitorizar
------
 
 Escuchando cambios de todo
 
@@ -43,7 +42,6 @@ Confirmar cambios y Commit inicial
 `git commit –m 'versión inicial del proyecto'`
 
 ## Clonar
------
 
 Clonado repositorio en carpeta actual con directorio grit
 
@@ -59,7 +57,6 @@ Clonando repositorio en carpeta definida
 
 
 ## Info
------
 
 Comprobar estado de archivos
 
@@ -74,7 +71,6 @@ Rehaciendo última confirmación
 `git commit --amend`
 
 ## Repositorios 
------
 
 Mostrando repositorios remotos definidos:
 
@@ -101,7 +97,6 @@ Borrar repositorio remoto de la lista
 `git remote rm origin`
 
 ## Ramas
------
 
 Creando nueva rama
 
