@@ -1,7 +1,7 @@
 # Chuleta de Comandos de GIT
 
 - https://git-scm.com/book/es/v1/Empezando-Configurando-Git-por-primera-vez
-- https://gitignore.io
+- [Autogenerador .gitignore] https://gitignore.io
 
 ## Iniciar
 
