@@ -1,25 +1,25 @@
 # Chuleta de Comandos de GIT
 
 - https://git-scm.com/book/es/v1/Empezando-Configurando-Git-por-primera-vez
-- [Autogenerador .gitignore] https://gitignore.io
+- Autogenerador .gitignore: https://gitignore.io
 
 ## Iniciar
 
     git init
 
-Añadir repositiorio remoto: (origin es el nombre por defecto)
+<strong>Añadir</strong> repositiorio remoto: (origin es el nombre por defecto)
 
     git remote add origin https://github.com/tollelle/repositorio.git
 
-Listar repositorio remoto:
+<strong>Listar</strong> repositorio remoto:
 
     git remote -v
 
-Modificar repositorio remoto
+<strong>Modificar</strong> repositorio remoto
 
     git remote set-url origin https://github.com/tollelle/nuevoRepositorio.git
 
-Definiendo identidad:
+Definiendo <strong>identidad</strong>:
 
     git config --global user.name "John Doe"
 
@@ -29,123 +29,123 @@ Definiendo identidad:
 
 ## Monitorizar
 
-Escuchando cambios de todo
+<strong>Escuchando</strong> cambios de todo
 
     git add . 
 
-Escuchando cambios de archivo
+<strong>Escuchando</strong> cambios de archivo
 
     git add README
 
-Confirmar cambios y Commit inicial
+<strong>Confirmar</strong> cambios y <strong>Commit</strong> inicial
 
     git commit –m 'versión inicial del proyecto'
 
 ## Clonar
 
-Clonado repositorio en carpeta actual con directorio grit
+<strong>Clonado</strong> repositorio en carpeta actual con directorio grit
 
     git clone git://github.com/schacon/grit.git
 
-Clonando repositorio y rama específica
+<strong>Clonando</strong> repositorio y rama específica
 
     git clone -b RAMA it://github.com/schacon/grit.git
 
-Clonando repositorio en carpeta definida
+<strong>Clonando</strong> repositorio en carpeta definida
 
     git clone git://github.com/schacon/grit.git carpeta
 
 
 ## Info
 
-Comprobar estado de archivos
+<strong>Comprobar</strong> estado de archivos
 
     git status
 
-Ver lo que has modificado pero aún no has preparado
+Ver lo que has <strong>modificado</strong> pero aún no has preparado
 
     git diff
 
-Rehaciendo última confirmación
+<strong>Rehaciendo</strong> última confirmación
 
     git commit --amend
 
 ## Repositorios 
 
-Mostrando repositorios remotos definidos:
+<strong>Mostrando</strong> repositorios remotos definidos:
 
     git remote
 
-Recibiendo repositorio remoto y estados:
+<strong>Recibiendo</strong> repositorio remoto y estados:
 
     git fetch [remote-name]
 
-Enviando cambios a repositorio remoto
+<strong>Enviando</strong> cambios a repositorio remoto
 
     git push origin master
 
-Inspeccionando repositorio remoto
+<strong>Inspeccionando</strong> repositorio remoto
 
     git remote show origin
 
-Eliminando y renombrando repositorios remotos
+<strong>Eliminando y renombrando</strong> repositorios remotos
 
     git remote rename NOMBREVIEJO NOMBRENUEVO
 
-Borrar repositorio remoto de la lista
+<strong>Borrar</strong> repositorio remoto de la lista
 
     git remote rm origin
 
 ## Ramas
 
-Creando nueva rama
+<strong>Creando</strong> nueva rama
 
     git branch testing
 
 
-Cambiar a nueva rama
+<strong>Cambiar</strong> a nueva rama
 
     git checkout testing
 
 
-Creando rama y cambiando a la nueva rama
+<strong>Creando</strong> rama y cambiando a la nueva rama
 
     git checkout -b 'nuevaRAMA'
 
-Fusionar ramas a master con merge
+<strong>Fusionar</strong> ramas a master con merge
 
     git checkout master
 
     git merge nuevaRAMA
 
 
-Borrar rama local nueva tras ser fusionada
+<strong>Borrar</strong> rama local nueva tras ser fusionada
 
     git branch -d nuevaRAMA
 
-Borrar rama local nueva SIN ser fusionada
+<strong>Borrar</strong> rama local nueva SIN ser fusionada
 
     git branch -D nuevaRAMA
 
 
-Borrar rama remota
+<strong>Borrar</strong> rama remota
 
     git push origin :rama
 
 
-Mostrar listado de ramas del repositorio
+Mostrar <strong>listado</strong> de ramas del repositorio
 
     git branch
 
 
-Publicando desde rama actual
+<strong>Publicando</strong> desde rama actual
 
     git push (remoto) (rama)
 
     git push origin master
 
 
-Reorganizar rama sobre master sin comprobar previamente
+<strong>Reorganizar</strong> rama sobre master sin comprobar previamente
 
     git rebase master rama
 
