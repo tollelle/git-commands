@@ -1,9 +1,8 @@
 # git-commands
 Chuleta Comandos de GIT
 
-https://git-scm.com/book/es/v1/Empezando-Configurando-Git-por-primera-vez
-
-https://gitignore.io
+- https://git-scm.com/book/es/v1/Empezando-Configurando-Git-por-primera-vez
+- https://gitignore.io
 
 ### Iniciar:
 
