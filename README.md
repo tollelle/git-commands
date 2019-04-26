@@ -23,6 +23,7 @@ Definiendo identidad:
 
 Escuchando cambios de todo
 `git add .` 
+
 Escuchando cambios de archivo
 `git add README`
 
@@ -54,47 +55,48 @@ Recibiendo repositorio remoto y estados:
 `git fetch [remote-name]`
 
 Enviando cambios a repositorio remoto
-git push origin master
+`git push origin master`
 
 Inspeccionando repositorio remoto
-git remote show origin
+`git remote show origin`
 
 Eliminando y renombrando repositorios remotos
-git remote rename NOMBREVIEJO NOMBRENUEVO
+`git remote rename NOMBREVIEJO NOMBRENUEVO`
 
 Borrar repositorio remoto de la lista
-git remote rm origin
+`git remote rm origin`
 
 Creando nueva rama
-git branch testing
+`git branch testing`
 
 Cambiar a nueva rama
-git checkout testing
+`git checkout testing`
 
 Creando rama y cambiando a la nueva rama
-git checkout -b 'nuevaRAMA’
+`git checkout -b 'nuevaRAMA'`
 
 Fusionar a master con merge
-git checkout master
-git merge nuevaRAMA
+`git checkout master`
+`git merge nuevaRAMA`
 
 Borrar rama local nueva tras ser fusionada
-git branch -d nuevaRAMA
+`git branch -d nuevaRAMA`
 
 Borrar rama local nueva SIN ser fusionada
-git branch -D nuevaRAMA
+`git branch -D nuevaRAMA`
 
 Borrar rama remota
-git push origin :rama
+`git push origin :rama`
 
 Mostrar listado de ramas del repositorio
-git branch
+`git branch`
 
 Publicando desde rama actual
-git push (remoto) (rama)
-git push origin master
+`git push (remoto) (rama)`
+`git push origin master`
+
 Reorganizar rama sobre master sin comprobar previamente
-git rebase master rama
+`git rebase master rama`
 
 
 
