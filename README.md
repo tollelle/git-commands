@@ -149,5 +149,10 @@ Mostrar <strong>listado</strong> de ramas del repositorio
 
     git rebase master rama
 
+<strong>Deshacer</strong> cambios locales y commits y sincronizar con repositorio remoto
+    
+    git fetch origin
+    
+    git reset --hard origin/master
 
 
