@@ -19,13 +19,17 @@
 
     git remote set-url origin https://github.com/tollelle/nuevoRepositorio.git
 
-Definiendo <strong>identidad</strong>:
+Definiendo <strong>identidad</strong> global:
 
     git config --global user.name "John Doe"
 
     git config --global user.email johndoe@example.com
+    
+Definiendo <strong>identidad en repositorio específico</strong>:
 
-<sup>*</sup> Sin --global compruebas el valor
+    git config user.email"tu@email.com"
+    
+    git config user.name"tunombre"
 
 ## Monitorizar
 
