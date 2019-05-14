@@ -34,6 +34,11 @@ Definiendo <strong>identidad en repositorio específico</strong>:
     git config user.email "correo@correo.com"
 
     git config github.user usergithub
+    
+Forzar introducir <strong>usuario y contraseña</strong>:
+* Útil para cambiar de usuario
+
+    git config --local credential.helper ""
 
 ## Monitorizar
 
