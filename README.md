@@ -36,7 +36,7 @@ Definiendo <strong>identidad en repositorio específico</strong>:
     git config github.user usergithub
     
 Forzar introducir <strong>usuario y contraseña</strong>:
-* Útil para cambiar de usuario
+Útil para cambiar de usuario
 
     git config --local credential.helper ""
 
