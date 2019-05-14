@@ -21,15 +21,19 @@
 
 Definiendo <strong>identidad</strong> global:
 
-    git config --global user.name "John Doe"
+    git config --global user.name "Jorge"
+    
+    git config --global user.email "correo@correo.com"
 
-    git config --global user.email johndoe@example.com
+    git config --global github.user usergithub
     
 Definiendo <strong>identidad en repositorio específico</strong>:
 
-    git config user.email"tu@email.com"
+    git config user.name "Jorge"
     
-    git config user.name"tunombre"
+    git config user.email "correo@correo.com"
+
+    git config github.user usergithub
 
 ## Monitorizar
 
